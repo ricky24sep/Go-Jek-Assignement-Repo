@@ -3,21 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		271BA653181799698C924350 /* Pods_Go_Jek_Assignment_Go_Jek_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701CFE30F757C1608E4DB17B /* Pods_Go_Jek_Assignment_Go_Jek_AssignmentUITests.framework */; };
 		78BA00C5E3143B55D0BFF2C4 /* Pods_Go_Jek_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC2DC71BAF3E7A12BB18988 /* Pods_Go_Jek_AssignmentTests.framework */; };
 		BCB76AB523FFD1F900ED5BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AB423FFD1F900ED5BC1 /* AppDelegate.swift */; };
-		BCB76AB723FFD1F900ED5BC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AB623FFD1F900ED5BC1 /* SceneDelegate.swift */; };
-		BCB76AB923FFD1F900ED5BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AB823FFD1F900ED5BC1 /* ViewController.swift */; };
 		BCB76ABC23FFD1F900ED5BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB76ABA23FFD1F900ED5BC1 /* Main.storyboard */; };
 		BCB76ABF23FFD1F900ED5BC1 /* Go_Jek_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCB76ABD23FFD1F900ED5BC1 /* Go_Jek_Assignment.xcdatamodeld */; };
 		BCB76AC123FFD1FB00ED5BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AC023FFD1FB00ED5BC1 /* Assets.xcassets */; };
 		BCB76AC423FFD1FB00ED5BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AC223FFD1FB00ED5BC1 /* LaunchScreen.storyboard */; };
 		BCB76ACF23FFD1FB00ED5BC1 /* Go_Jek_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76ACE23FFD1FB00ED5BC1 /* Go_Jek_AssignmentTests.swift */; };
 		BCB76ADA23FFD1FB00ED5BC1 /* Go_Jek_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AD923FFD1FB00ED5BC1 /* Go_Jek_AssignmentUITests.swift */; };
+		BCB76AE823FFD9A200ED5BC1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AE723FFD9A200ED5BC1 /* ListViewController.swift */; };
+		BCB76AEA23FFD9C600ED5BC1 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AE923FFD9C600ED5BC1 /* ListViewModel.swift */; };
+		BCB76AED23FFDBA100ED5BC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76AEC23FFDBA100ED5BC1 /* SceneDelegate.swift */; };
+		BCB76AFB23FFDD4300ED5BC1 /* SFUIText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AEF23FFDD4300ED5BC1 /* SFUIText-Medium.ttf */; };
+		BCB76AFC23FFDD4300ED5BC1 /* SFUIText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF023FFDD4300ED5BC1 /* SFUIText-Regular.ttf */; };
+		BCB76AFD23FFDD4300ED5BC1 /* SFUIText-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF123FFDD4300ED5BC1 /* SFUIText-Heavy.ttf */; };
+		BCB76AFE23FFDD4300ED5BC1 /* SFUIText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF223FFDD4300ED5BC1 /* SFUIText-Bold.ttf */; };
+		BCB76AFF23FFDD4300ED5BC1 /* SFUIText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF323FFDD4300ED5BC1 /* SFUIText-Light.ttf */; };
+		BCB76B0023FFDD4300ED5BC1 /* SFUIText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF423FFDD4300ED5BC1 /* SFUIText-Semibold.ttf */; };
+		BCB76B0123FFDD4300ED5BC1 /* SFUIText-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF523FFDD4300ED5BC1 /* SFUIText-LightItalic.ttf */; };
+		BCB76B0223FFDD4300ED5BC1 /* SFUIText-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF623FFDD4300ED5BC1 /* SFUIText-BoldItalic.ttf */; };
+		BCB76B0323FFDD4300ED5BC1 /* SFUIText-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF723FFDD4300ED5BC1 /* SFUIText-MediumItalic.ttf */; };
+		BCB76B0423FFDD4300ED5BC1 /* SFUIText-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF823FFDD4300ED5BC1 /* SFUIText-SemiboldItalic.ttf */; };
+		BCB76B0523FFDD4300ED5BC1 /* SFUIText-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AF923FFDD4300ED5BC1 /* SFUIText-HeavyItalic.ttf */; };
+		BCB76B0623FFDD4300ED5BC1 /* SFUIText-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB76AFA23FFDD4300ED5BC1 /* SFUIText-RegularItalic.ttf */; };
+		BCB76B0823FFE11F00ED5BC1 /* ListViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76B0723FFE11F00ED5BC1 /* ListViewTableViewCell.swift */; };
+		BCB76B0A23FFE13200ED5BC1 /* ListViewTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB76B0923FFE13200ED5BC1 /* ListViewTableViewCellViewModel.swift */; };
 		E53CBC6FDFE503D0EC32EA0C /* Pods_Go_Jek_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751B106BD097DCE0FAD8F30F /* Pods_Go_Jek_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,8 +61,6 @@
 		A15E49DBDABAB08FD1DF48E5 /* Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests/Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BCB76AB123FFD1F900ED5BC1 /* Go-Jek-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-Jek-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB76AB423FFD1F900ED5BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCB76AB623FFD1F900ED5BC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCB76AB823FFD1F900ED5BC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BCB76ABB23FFD1F900ED5BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCB76ABE23FFD1F900ED5BC1 /* Go_Jek_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Go_Jek_Assignment.xcdatamodel; sourceTree = "<group>"; };
 		BCB76AC023FFD1FB00ED5BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +72,23 @@
 		BCB76AD523FFD1FB00ED5BC1 /* Go-Jek-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-Jek-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB76AD923FFD1FB00ED5BC1 /* Go_Jek_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_Jek_AssignmentUITests.swift; sourceTree = "<group>"; };
 		BCB76ADB23FFD1FB00ED5BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB76AE723FFD9A200ED5BC1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		BCB76AE923FFD9C600ED5BC1 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		BCB76AEC23FFDBA100ED5BC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCB76AEF23FFDD4300ED5BC1 /* SFUIText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Medium.ttf"; sourceTree = "<group>"; };
+		BCB76AF023FFDD4300ED5BC1 /* SFUIText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Regular.ttf"; sourceTree = "<group>"; };
+		BCB76AF123FFDD4300ED5BC1 /* SFUIText-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Heavy.ttf"; sourceTree = "<group>"; };
+		BCB76AF223FFDD4300ED5BC1 /* SFUIText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Bold.ttf"; sourceTree = "<group>"; };
+		BCB76AF323FFDD4300ED5BC1 /* SFUIText-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Light.ttf"; sourceTree = "<group>"; };
+		BCB76AF423FFDD4300ED5BC1 /* SFUIText-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-Semibold.ttf"; sourceTree = "<group>"; };
+		BCB76AF523FFDD4300ED5BC1 /* SFUIText-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-LightItalic.ttf"; sourceTree = "<group>"; };
+		BCB76AF623FFDD4300ED5BC1 /* SFUIText-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BCB76AF723FFDD4300ED5BC1 /* SFUIText-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BCB76AF823FFDD4300ED5BC1 /* SFUIText-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		BCB76AF923FFDD4300ED5BC1 /* SFUIText-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		BCB76AFA23FFDD4300ED5BC1 /* SFUIText-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFUIText-RegularItalic.ttf"; sourceTree = "<group>"; };
+		BCB76B0723FFE11F00ED5BC1 /* ListViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTableViewCell.swift; sourceTree = "<group>"; };
+		BCB76B0923FFE13200ED5BC1 /* ListViewTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewTableViewCellViewModel.swift; sourceTree = "<group>"; };
 		DFC2DC71BAF3E7A12BB18988 /* Pods_Go_Jek_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_Jek_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1584408305EA074F98D887F /* Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests/Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB9FD76D01AEAC25C7F51E09 /* Pods-Go-Jek-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-Jek-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-Go-Jek-Assignment/Pods-Go-Jek-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,11 +158,11 @@
 		BCB76AB323FFD1F900ED5BC1 /* Go-Jek-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				BCB76AEC23FFDBA100ED5BC1 /* SceneDelegate.swift */,
 				BCB76AB423FFD1F900ED5BC1 /* AppDelegate.swift */,
-				BCB76AB623FFD1F900ED5BC1 /* SceneDelegate.swift */,
-				BCB76AB823FFD1F900ED5BC1 /* ViewController.swift */,
-				BCB76ABA23FFD1F900ED5BC1 /* Main.storyboard */,
+				BCB76AEB23FFD9D400ED5BC1 /* ListView */,
 				BCB76AC023FFD1FB00ED5BC1 /* Assets.xcassets */,
+				BCB76AEE23FFDD4300ED5BC1 /* SFUIText */,
 				BCB76AC223FFD1FB00ED5BC1 /* LaunchScreen.storyboard */,
 				BCB76AC523FFD1FB00ED5BC1 /* Info.plist */,
 				BCB76ABD23FFD1F900ED5BC1 /* Go_Jek_Assignment.xcdatamodeld */,
@@ -158,6 +188,37 @@
 			path = "Go-Jek-AssignmentUITests";
 			sourceTree = "<group>";
 		};
+		BCB76AEB23FFD9D400ED5BC1 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				BCB76ABA23FFD1F900ED5BC1 /* Main.storyboard */,
+				BCB76AE723FFD9A200ED5BC1 /* ListViewController.swift */,
+				BCB76AE923FFD9C600ED5BC1 /* ListViewModel.swift */,
+				BCB76B0723FFE11F00ED5BC1 /* ListViewTableViewCell.swift */,
+				BCB76B0923FFE13200ED5BC1 /* ListViewTableViewCellViewModel.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
+		BCB76AEE23FFDD4300ED5BC1 /* SFUIText */ = {
+			isa = PBXGroup;
+			children = (
+				BCB76AEF23FFDD4300ED5BC1 /* SFUIText-Medium.ttf */,
+				BCB76AF023FFDD4300ED5BC1 /* SFUIText-Regular.ttf */,
+				BCB76AF123FFDD4300ED5BC1 /* SFUIText-Heavy.ttf */,
+				BCB76AF223FFDD4300ED5BC1 /* SFUIText-Bold.ttf */,
+				BCB76AF323FFDD4300ED5BC1 /* SFUIText-Light.ttf */,
+				BCB76AF423FFDD4300ED5BC1 /* SFUIText-Semibold.ttf */,
+				BCB76AF523FFDD4300ED5BC1 /* SFUIText-LightItalic.ttf */,
+				BCB76AF623FFDD4300ED5BC1 /* SFUIText-BoldItalic.ttf */,
+				BCB76AF723FFDD4300ED5BC1 /* SFUIText-MediumItalic.ttf */,
+				BCB76AF823FFDD4300ED5BC1 /* SFUIText-SemiboldItalic.ttf */,
+				BCB76AF923FFDD4300ED5BC1 /* SFUIText-HeavyItalic.ttf */,
+				BCB76AFA23FFDD4300ED5BC1 /* SFUIText-RegularItalic.ttf */,
+			);
+			path = SFUIText;
+			sourceTree = "<group>";
+		};
 		DDF0A8F5B13F6AC8EF2CD7B0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +229,6 @@
 				9DBA669821456DB992DC0008 /* Pods-Go-Jek-AssignmentTests.debug.xcconfig */,
 				3D4EAAA2461F847E1215DB8D /* Pods-Go-Jek-AssignmentTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -281,9 +341,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB76B0423FFDD4300ED5BC1 /* SFUIText-SemiboldItalic.ttf in Resources */,
+				BCB76AFE23FFDD4300ED5BC1 /* SFUIText-Bold.ttf in Resources */,
+				BCB76B0023FFDD4300ED5BC1 /* SFUIText-Semibold.ttf in Resources */,
 				BCB76AC423FFD1FB00ED5BC1 /* LaunchScreen.storyboard in Resources */,
+				BCB76AFC23FFDD4300ED5BC1 /* SFUIText-Regular.ttf in Resources */,
+				BCB76B0223FFDD4300ED5BC1 /* SFUIText-BoldItalic.ttf in Resources */,
+				BCB76AFD23FFDD4300ED5BC1 /* SFUIText-Heavy.ttf in Resources */,
+				BCB76AFB23FFDD4300ED5BC1 /* SFUIText-Medium.ttf in Resources */,
 				BCB76AC123FFD1FB00ED5BC1 /* Assets.xcassets in Resources */,
+				BCB76B0123FFDD4300ED5BC1 /* SFUIText-LightItalic.ttf in Resources */,
+				BCB76B0623FFDD4300ED5BC1 /* SFUIText-RegularItalic.ttf in Resources */,
+				BCB76B0323FFDD4300ED5BC1 /* SFUIText-MediumItalic.ttf in Resources */,
 				BCB76ABC23FFD1F900ED5BC1 /* Main.storyboard in Resources */,
+				BCB76B0523FFDD4300ED5BC1 /* SFUIText-HeavyItalic.ttf in Resources */,
+				BCB76AFF23FFDD4300ED5BC1 /* SFUIText-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +483,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB76AB923FFD1F900ED5BC1 /* ViewController.swift in Sources */,
+				BCB76B0823FFE11F00ED5BC1 /* ListViewTableViewCell.swift in Sources */,
+				BCB76AED23FFDBA100ED5BC1 /* SceneDelegate.swift in Sources */,
 				BCB76ABF23FFD1F900ED5BC1 /* Go_Jek_Assignment.xcdatamodeld in Sources */,
+				BCB76AEA23FFD9C600ED5BC1 /* ListViewModel.swift in Sources */,
+				BCB76B0A23FFE13200ED5BC1 /* ListViewTableViewCellViewModel.swift in Sources */,
 				BCB76AB523FFD1F900ED5BC1 /* AppDelegate.swift in Sources */,
-				BCB76AB723FFD1F900ED5BC1 /* SceneDelegate.swift in Sources */,
+				BCB76AE823FFD9A200ED5BC1 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
