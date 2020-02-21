@@ -1,0 +1,6 @@
+framework module Pods_Go_Jek_Assignment_Go_Jek_AssignmentUITests {
+  umbrella header "Pods-Go-Jek-Assignment-Go-Jek-AssignmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
